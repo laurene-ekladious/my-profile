@@ -1,0 +1,103 @@
+/*Colors and fonts */
+body {
+	background: #ddeaff;
+	color: black;
+	font-family: 'PT Serif', serif;
+	font-size: 17px;
+}
+
+h1, h2 {
+	color: #393e46;
+	font-size: 20px;
+	font-family: 'PT Sans', sans-serif;
+}
+
+h1 {
+	font-size: 32px;
+	font-weight: lighter;
+}
+
+a {
+	font-family: 'PT Sans', sans-serif;
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+}
+
+a:hover {
+	color: #ddeaff;
+}
+
+
+/* Custom design with class and id */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+@media (max-width: 960px) {
+	.container {
+	width: 700px;
+	}
+}
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color: #f4fbfb;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	border-radius: 5px;
+	margin: 25px;
+	text-align: center;
+}
+
+.card-white:hover {
+	background-color: white;
+}
+.images {
+	width: 500px;
+	max-width: 100%;
+	border-radius: 5px;
+	text-align: justify;
+}
+
+.btn-light-blue {
+	background-color: #ddeaff;
+	color: #393e46;
+	border-radius: 5px;
+	padding: 5px 10px;
+}
+
+.btn-light-blue:hover {
+	background-color: black;
+	color: white;
+}
+
+.icons {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.icons li {
+	display: inline;
+	padding: 10px;
+	color: #ddeaff;
+}
+
+#portrait {
+	width: 100px;
+	border: solid;
+	border-width: 1px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 10px #343434
+}
